@@ -1,0 +1,232 @@
+man
+apropros
+whatis
+alias
+command
+which
+help
+
+cal
+time
+date
+
+history
+
+chmod
+
+clear
+colordiff
+column
+
+crontab
+systemctl
+fg
+kill
+
+fuser
+lsof
+
+cut
+sort
+shuf
+uniq
+
+seq
+
+dict
+
+diff
+diffstat
+git
+
+htop		https://github.com/hishamhm/htop
+
+file
+stat
+rm
+ln
+du
+touch
+cp
+
+jdupes		https://github.com/jbruchon/jdupes
+find
+rg		https://github.com/BurntSushi/ripgrep
+grep
+fd
+ncdu		https://github.com/rofl0r/ncdu
+
+cd
+dirname
+ls
+mkdir
+basename
+realpath
+
+wc
+stat
+
+df
+fdisk
+fsck
+mount
+lsblk
+
+gunzip
+tar
+zip
+
+tee
+
+echo
+head
+tail
+cat
+zcat
+zless
+less
+more
+bat
+
+
+ngrok
+teleport	https://github.com/gravitational/teleport
+meshbird	https://github.com/meshbird/meshbird
+
+brctl
+dig
+whois
+ip
+ssh		https://github.com/openssh/openssh-portable
+fail2ban	https://github.com/fail2ban/fail2ban
+wg		https://github.com/WireGuard/WireGuard
+bettercap 	https://github.com/bettercap/bettercap
+tshark		https://github.com/wireshark/wireshark
+wpa_supplicant
+iptables
+ipcalc
+nc
+arpscan
+ufw
+cilium		https://github.com/cilium/cilium
+nmap		https://github.com/nmap/nmap
+ifconfig
+
+journalctl
+dmesg
+
+
+
+make
+
+
+base64
+shasum
+md5sum
+openssl
+
+path
+ping
+ps
+pv
+pwd
+
+python
+
+su
+who
+id
+whoami
+sudo
+passwd
+chsh
+groups
+users
+gr
+
+talk
+
+touch
+
+tput
+pprintf
+
+tr
+sed
+awk
+xsv		https://github.com/BurntSushi/xsv
+sd		https://github.com/chmln/sd
+
+trap
+mkfifo
+
+uname
+
+xargs
+
+cargo		https://github.com/rust-lang/cargo
+
+emacs		https://github.com/emacs-mirror/emacs
+vim		https://github.com/vim/vim
+
+gpg
+age
+
+alacritty	https://github.com/jwilm/alacritty
+
+algo		https://github.com/trailofbits/algo
+
+aquatone	https://github.com/michenriksen/aquatone
+
+http
+wget
+curl		https://github.com/curl/curl
+
+bap		https://github.com/BinaryAnalysisPlatform/bap
+
+bpftrace	https://github.com/iovisor/bpftrace
+strace
+dtrace
+
+clamav		https://github.com/Cisco-Talos/clamav-devel
+gitleaks	https://github.com/zricethezav/gitleaks
+ossec		https://github.com/ossec/ossec-hids
+
+dive		https://github.com/wagoodman/dive
+docker		https://github.com/moby/moby
+vagrant		https://github.com/hashicorp/vagrant
+hadolint 	https://github.com/hadolint/hadolint
+
+fzf		https://github.com/junegunn/fzf
+
+kubectl		https://github.com/kubernetes/kubernetes
+
+lynis		https://github.com/CISOfy/lynis
+
+mkcert		https://github.com/FiloSottile/mkcert
+
+pup		https://github.com/ericchiang/pup
+jq		https://github.com/stedolan/jq
+
+qira 		https://github.com/geohot/qira
+rsync		https://rsync.samba.org/
+
+black
+flake8
+pip-tools
+virtualenv
+
+shellcheck 	https://github.com/koalaman/shellcheck
+shfmt		https://github.com/mvdan/sh
+
+gofmt
+go
+
+terminalizer	https://github.com/faressoft/terminalizer
+
+
+tmux		https://github.com/tmux/tmux
+
+
+Other
+- https://github.com/karelzak/util-linux
