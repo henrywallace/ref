@@ -10,6 +10,11 @@ cal
 time
 date
 
+acpi
+lscpu
+xrandr
+lsmod
+
 history
 
 chmod
@@ -20,16 +25,27 @@ column
 
 crontab
 systemctl
-fg
-kill
 
 fuser
 lsof
+htop		https://github.com/hishamhm/htop
+ps
+kill
+pv
+
+bpftrace	https://github.com/iovisor/bpftrace
+strace
+dtrace
+bap		https://github.com/BinaryAnalysisPlatform/bap
+qira 		https://github.com/geohot/qira
 
 cut
 sort
 shuf
 uniq
+wc
+pup		https://github.com/ericchiang/pup
+jq		https://github.com/stedolan/jq
 
 seq
 
@@ -39,7 +55,6 @@ diff
 diffstat
 git
 
-htop		https://github.com/hishamhm/htop
 
 file
 stat
@@ -48,6 +63,10 @@ ln
 du
 touch
 cp
+
+rsync		https://rsync.samba.org/
+rclone
+scp
 
 jdupes		https://github.com/jbruchon/jdupes
 find
@@ -59,18 +78,18 @@ ncdu		https://github.com/rofl0r/ncdu
 cd
 dirname
 ls
+pwd
 mkdir
 basename
 realpath
-
-wc
-stat
 
 df
 fdisk
 fsck
 mount
 lsblk
+scrub
+dd
 
 gunzip
 tar
@@ -94,49 +113,48 @@ teleport	https://github.com/gravitational/teleport
 meshbird	https://github.com/meshbird/meshbird
 
 brctl
-dig
-whois
-ip
 ssh		https://github.com/openssh/openssh-portable
-fail2ban	https://github.com/fail2ban/fail2ban
-wg		https://github.com/WireGuard/WireGuard
-bettercap 	https://github.com/bettercap/bettercap
-tshark		https://github.com/wireshark/wireshark
 wpa_supplicant
 iptables
-ipcalc
 nc
-arpscan
-ufw
-cilium		https://github.com/cilium/cilium
-nmap		https://github.com/nmap/nmap
+ping
+ipcalc
 ifconfig
+
+dig
+whois
+bettercap 	https://github.com/bettercap/bettercap
+ip
+arpscan
+nmap		https://github.com/nmap/nmap
+tshark		https://github.com/wireshark/wireshark
+aquatone	https://github.com/michenriksen/aquatone
+
+wg		https://github.com/WireGuard/WireGuard
+algo		https://github.com/trailofbits/algo
 
 journalctl
 dmesg
 
-
-
 make
-
+mage
 
 base64
 shasum
 md5sum
 openssl
 
-path
-ping
-ps
-pv
-pwd
-
-python
-
 su
 who
 id
 whoami
+useradd
+usermod
+userdel
+groupadd
+groupmod
+talk
+groupdel
 sudo
 passwd
 chsh
@@ -144,12 +162,11 @@ groups
 users
 gr
 
-talk
-
-touch
-
 tput
 pprintf
+
+xargs
+parallel
 
 tr
 sed
@@ -157,62 +174,52 @@ awk
 xsv		https://github.com/BurntSushi/xsv
 sd		https://github.com/chmln/sd
 
-trap
 mkfifo
+trap
+wait
+fg
+bg
 
 uname
-
-xargs
 
 cargo		https://github.com/rust-lang/cargo
 
 emacs		https://github.com/emacs-mirror/emacs
 vim		https://github.com/vim/vim
 
-gpg
-age
-
 alacritty	https://github.com/jwilm/alacritty
-
-algo		https://github.com/trailofbits/algo
-
-aquatone	https://github.com/michenriksen/aquatone
 
 http
 wget
 curl		https://github.com/curl/curl
 
-bap		https://github.com/BinaryAnalysisPlatform/bap
-
-bpftrace	https://github.com/iovisor/bpftrace
-strace
-dtrace
-
+fail2ban	https://github.com/fail2ban/fail2ban
+cilium		https://github.com/cilium/cilium
+ufw
 clamav		https://github.com/Cisco-Talos/clamav-devel
 gitleaks	https://github.com/zricethezav/gitleaks
 ossec		https://github.com/ossec/ossec-hids
+lynis		https://github.com/CISOfy/lynis
 
 dive		https://github.com/wagoodman/dive
 docker		https://github.com/moby/moby
-vagrant		https://github.com/hashicorp/vagrant
 hadolint 	https://github.com/hadolint/hadolint
+
+vagrant		https://github.com/hashicorp/vagrant
+
+kubectl		https://github.com/kubernetes/kubernetes
+helm
 
 fzf		https://github.com/junegunn/fzf
 
-kubectl		https://github.com/kubernetes/kubernetes
-
-lynis		https://github.com/CISOfy/lynis
-
+age
 mkcert		https://github.com/FiloSottile/mkcert
-
-pup		https://github.com/ericchiang/pup
-jq		https://github.com/stedolan/jq
-
-qira 		https://github.com/geohot/qira
-rsync		https://rsync.samba.org/
+gpg
+keybase
 
 black
 flake8
+python
 pip-tools
 virtualenv
 
@@ -223,7 +230,6 @@ gofmt
 go
 
 terminalizer	https://github.com/faressoft/terminalizer
-
 
 tmux		https://github.com/tmux/tmux
 

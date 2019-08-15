@@ -94,9 +94,45 @@ awk 'NR>1' < /tmp/foo.csv | while IFS=, read col1 col2 col3; do
 done | column -t
 ```
 
+
 ### List all untracked files in git
 
 ```sh
 # https://stackoverflow.com/a/3801554/2601179
 git ls-files --others --exclude-standard
+```
+
+
+### See codes for certain key-presses
+
+For example, cat followed by \n, <a-left>, \n, <a-right>, \n, <c-d>, will allow
+you to see which terminal sequences correspond to those key presses [1]:
+
+```sh
+% cat
+^[[1;3D
+
+^[[1;3C
+```
+
+[1] https://stackoverflow.com/a/12403798/2601179
+
+
+### Strip trailing whitespace
+
+Here's two different ways to do it:
+
+```sh
+
+echo " padded " | xargs
+echo " padded " | awk '{$1=$1;1}'
+```
+
+
+### More flexible watch
+
+Another more flexible alternative to sleep is to do something like this:
+
+```sh
+while sleep 2; do foobar; done
 ```
