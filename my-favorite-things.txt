@@ -17,8 +17,6 @@ lsmod
 
 history
 
-chmod
-
 clear
 colordiff
 column
@@ -32,6 +30,7 @@ htop		https://github.com/hishamhm/htop
 ps
 kill
 pv
+glances
 
 bpftrace	https://github.com/iovisor/bpftrace
 strace
@@ -55,8 +54,8 @@ diff
 diffstat
 git
 
-
 file
+chmod
 stat
 rm
 ln
@@ -88,8 +87,10 @@ fdisk
 fsck
 mount
 lsblk
-scrub
 dd
+shred		https://github.com/wertarbyte/coreutils/blob/master/src/shred.c
+scrub 		https://github.com/chaos/scrub
+hdparm
 
 gunzip
 tar
@@ -111,24 +112,29 @@ bat
 ngrok
 teleport	https://github.com/gravitational/teleport
 meshbird	https://github.com/meshbird/meshbird
+ssh		https://github.com/openssh/openssh-portable
 
 brctl
-ssh		https://github.com/openssh/openssh-portable
 wpa_supplicant
 iptables
 nc
 ping
 ipcalc
 ifconfig
+ip
+
+http
+wget
+curl		https://github.com/curl/curl
 
 dig
 whois
 bettercap 	https://github.com/bettercap/bettercap
-ip
 arpscan
 nmap		https://github.com/nmap/nmap
 tshark		https://github.com/wireshark/wireshark
 aquatone	https://github.com/michenriksen/aquatone
+shodan		https://github.com/achillean/shodan-python
 
 wg		https://github.com/WireGuard/WireGuard
 algo		https://github.com/trailofbits/algo
@@ -189,10 +195,6 @@ vim		https://github.com/vim/vim
 
 alacritty	https://github.com/jwilm/alacritty
 
-http
-wget
-curl		https://github.com/curl/curl
-
 fail2ban	https://github.com/fail2ban/fail2ban
 cilium		https://github.com/cilium/cilium
 ufw
@@ -220,6 +222,7 @@ keybase
 black
 flake8
 python
+pyinstallered
 pip-tools
 virtualenv
 
@@ -233,6 +236,17 @@ terminalizer	https://github.com/faressoft/terminalizer
 
 tmux		https://github.com/tmux/tmux
 
+-------------------------
 
-Other
-- https://github.com/karelzak/util-linux
+https://github.com/karelzak/util-linux
+
+$()
+<()
+$#
+$0
+$1
+${VAR:-default}
+
+curl ipinfo.io
+curl cheat.sh/CMD
+
